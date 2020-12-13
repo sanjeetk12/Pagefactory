@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test automtion regression suite" parallel="tests" thread-count="2">
+
+
+	<test name="Amazon Test">
+		<classes>
+			<class name="Testngnav.amazon" />
+		</classes>
+	</test>
+
+	<test name="guru99 Test">
+		<classes>
+			<class name="Testngnav.gurunav" />
+		</classes>
+	</test>
+
+	
+
+</suite>
