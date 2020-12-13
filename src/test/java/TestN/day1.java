@@ -38,6 +38,13 @@ public class day1 {
 		System.out.println(" Click signin button");
 	}
 	
+	@Test
+	public void logout()
+	{
+		System.out.println(" Click logout button");
+	}
+	
+	
 	@AfterMethod()
 public void Webutils() {
 		
